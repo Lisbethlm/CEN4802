@@ -1,6 +1,14 @@
 public class Fibonacci {
 
     public static int fibonacci(int n) {
+
+/**
+ * Recursive method to calculate the nth term in the Fibonacci sequence.
+ * 
+ * @param n the position in the Fibonacci sequence (1-based index).
+ * @return the nth term in the Fibonacci sequence.
+ */
+
         if (n <= 0) {
             throw new IllegalArgumentException("n should be a positive integer.");
         }
